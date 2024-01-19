@@ -58,7 +58,6 @@ export default function PieChart({
 
 
     useEffect(() => {
-        console.log(datasource);
         const categories = [...new Set(datasource.map(item => item.category ? item.category : 'otros'))];
         let datasetaux = [];
         categories.forEach(category => {
@@ -71,7 +70,6 @@ export default function PieChart({
         });
 
         setDataset(datasetaux);
-        console.log(datasetaux);
     }, [datasource, setDataset]);
 
     return (
