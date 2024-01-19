@@ -72,7 +72,7 @@ export default function PieChart({
 
         setDataset(datasetaux);
         console.log(datasetaux);
-    }, [datasource, setDataset]); // Agregamos dataset como una dependencia
+    }, [datasource, setDataset]);
 
     return (
         <HighchartsReact highcharts={Highcharts} options={options} />

@@ -1,4 +1,3 @@
-// useApi.js
 import ApiContext from '@/context/apiProvider';
 import { useContext } from 'react';
 

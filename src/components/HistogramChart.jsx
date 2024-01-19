@@ -12,7 +12,7 @@ export default function HistogramChart({
         chart: {
           type: 'column',
           borderRadius: 19,
-          backgroundColor: null, // Transparente
+          backgroundColor: null,
           plotBorderColor: 'rgba(182, 182, 182, 0.15)',
           plotBorderWidth: 1.497,
         },
@@ -56,14 +56,12 @@ export default function HistogramChart({
             name: 'Transacciones',
             dataLabels: {
               enabled: true,
-              format: '${point.y}', // Etiqueta con el formato de la cantidad
+              format: '${point.y}',
             },
           },
         ],
       };
 
-      console.log(datasource)
-    
 
     return (
         <HighchartsReact highcharts={Highcharts}  options={options}/>

@@ -26,7 +26,6 @@ export default function Balances() {
 
 
   const handleChangePage = (event, newPage) => {
-    console.log(newPage);
     getAllTransactions(newPage + 1);
     setPage(newPage);
   };

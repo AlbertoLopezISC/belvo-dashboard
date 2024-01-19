@@ -4,10 +4,10 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
     palette: {
       primary: {
-        main: 'rgb(25, 118, 210)', // Cambia este color a tu color primario deseado
+        main: 'rgb(25, 118, 210)',
       },
       secondary: {
-        main: '#607d8b', // Cambia este color a tu color secundario deseado
+        main: '#607d8b',
       },
       success: {
         main: 'rgb(46, 125, 50)'
